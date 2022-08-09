@@ -1,0 +1,193 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 373
+  ClientWidth = 496
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 410
+    Top = 342
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 0
+    Width = 489
+    Height = 233
+    ActivePage = TabSheet1
+    TabOrder = 1
+    object TabSheet1: TTabSheet
+      Caption = 'TabSheet1'
+      object Label1: TLabel
+        Left = 3
+        Top = 3
+        Width = 62
+        Height = 13
+        Caption = 'Color Palette'
+      end
+      object Label2: TLabel
+        Left = 240
+        Top = 3
+        Width = 29
+        Height = 13
+        Caption = 'Styles'
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'TabSheet2'
+      ImageIndex = 1
+      object Header: TLabel
+        Left = 16
+        Top = 3
+        Width = 35
+        Height = 13
+        Caption = 'Header'
+      end
+      object Label5: TLabel
+        Left = 3
+        Top = 48
+        Width = 68
+        Height = 13
+        Caption = 'Header height'
+      end
+      object Label6: TLabel
+        Left = 224
+        Top = 46
+        Width = 96
+        Height = 13
+        Caption = 'Bottom header view'
+      end
+      object Label8: TLabel
+        Left = 224
+        Top = 86
+        Width = 114
+        Height = 13
+        Caption = 'Segmentation in header'
+      end
+      object Label9: TLabel
+        Left = 3
+        Top = 126
+        Width = 28
+        Height = 13
+        Caption = 'Scale '
+      end
+      object Label10: TLabel
+        Left = 224
+        Top = 126
+        Width = 75
+        Height = 13
+        Caption = 'Header position'
+      end
+      object Label4: TLabel
+        Left = 224
+        Top = 22
+        Width = 3
+        Height = 13
+      end
+      object Label13: TLabel
+        Left = 224
+        Top = 22
+        Width = 67
+        Height = 13
+        Caption = 'String pattern'
+      end
+      object CheckBox1: TCheckBox
+        Left = 3
+        Top = 22
+        Width = 129
+        Height = 17
+        Caption = 'Default header height'
+        TabOrder = 0
+      end
+      object CheckBox2: TCheckBox
+        Left = 3
+        Top = 85
+        Width = 142
+        Height = 17
+        Caption = 'Show top date in header'
+        TabOrder = 1
+      end
+      object CheckBox3: TCheckBox
+        Left = 3
+        Top = 157
+        Width = 129
+        Height = 17
+        Caption = 'Draw horizontal grid'
+        TabOrder = 2
+      end
+      object CheckBox4: TCheckBox
+        Left = 224
+        Top = 150
+        Width = 115
+        Height = 17
+        Caption = 'Draw vertical grid'
+        TabOrder = 3
+      end
+      object Edit1: TEdit
+        Left = 297
+        Top = 19
+        Width = 125
+        Height = 21
+        TabOrder = 4
+        Text = 'MMMM'
+      end
+      object ComboBox1: TComboBox
+        Left = 37
+        Top = 123
+        Width = 96
+        Height = 21
+        TabOrder = 5
+        Text = 'ComboBox1'
+      end
+      object ComboBox2: TComboBox
+        Left = 326
+        Top = 123
+        Width = 96
+        Height = 21
+        TabOrder = 6
+        Text = 'ComboBox1'
+      end
+      object ComboBox3: TComboBox
+        Left = 326
+        Top = 43
+        Width = 96
+        Height = 21
+        TabOrder = 7
+        Text = 'ComboBox1'
+      end
+      object UpDown1: TUpDown
+        Left = 138
+        Top = 45
+        Width = 17
+        Height = 21
+        TabOrder = 8
+      end
+      object Edit2: TEdit
+        Left = 77
+        Top = 45
+        Width = 55
+        Height = 21
+        TabOrder = 9
+        Text = 'Edit2'
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'TabSheet3'
+      ImageIndex = 2
+    end
+  end
+end

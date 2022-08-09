@@ -1,0 +1,317 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 624
+  ClientWidth = 757
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  DesignSize = (
+    757
+    624)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label3: TLabel
+    Left = 345
+    Top = 428
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
+  object Label4: TLabel
+    Left = 228
+    Top = 418
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
+  object PageControl1: TPageControl
+    Left = -6
+    Top = 0
+    Width = 767
+    Height = 624
+    ActivePage = TabSheet3
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    TabOrder = 0
+    OnChange = PageControl1Change
+    ExplicitHeight = 629
+    object TabSheet1: TTabSheet
+      Caption = 'TabSheet1'
+      DesignSize = (
+        759
+        596)
+      object Chart1: TChart
+        Left = 3
+        Top = 0
+        Width = 756
+        Height = 599
+        Cursor = crHandPoint
+        AllowPanning = pmNone
+        Border.EndStyle = esSquare
+        Border.Visible = True
+        Legend.Visible = False
+        Title.Text.Strings = (
+          'TChart')
+        Title.Visible = False
+        BottomAxis.DateTimeFormat = 'dd/MM/yyyy'
+        BottomAxis.Grid.Color = clBlack
+        BottomAxis.GridCentered = True
+        BottomAxis.MinorTicks.Visible = False
+        BottomAxis.Ticks.Visible = False
+        Hover.Visible = False
+        LeftAxis.Axis.Visible = False
+        LeftAxis.Grid.Color = clBlack
+        LeftAxis.GridCentered = True
+        LeftAxis.MinorTicks.Visible = False
+        LeftAxis.TickInnerLength = 1
+        LeftAxis.Ticks.Width = 6
+        LeftAxis.Ticks.Visible = False
+        LeftAxis.TicksInner.Width = 0
+        LeftAxis.TicksInner.Visible = False
+        RightAxis.GridCentered = True
+        TopAxis.GridCentered = True
+        View3D = False
+        Zoom.Allow = False
+        BevelOuter = bvNone
+        TabOrder = 0
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        ExplicitHeight = 604
+        DefaultCanvas = 'TGDIPlusCanvas'
+        ColorPaletteIndex = 13
+        object Series1: TGanttSeries
+          Cursor = crArrow
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Pen.Visible = False
+          Pointer.SizeUnits = suAxis
+          Pointer.Style = psRectangle
+          XValues.Name = 'Start'
+          XValues.Order = loAscending
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          Callout.Style = psRightTriangle
+          Callout.Arrow.Visible = False
+          StartValues.Name = 'Start'
+          StartValues.Order = loAscending
+          EndValues.Name = 'End'
+          EndValues.Order = loNone
+          NextTask.Name = 'NextTask'
+          NextTask.Order = loNone
+        end
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'TabSheet2'
+      ImageIndex = 1
+      DesignSize = (
+        759
+        596)
+      object Chart2: TChart
+        Left = 3
+        Top = 0
+        Width = 756
+        Height = 598
+        Legend.Visible = False
+        Title.Text.Strings = (
+          'TChart')
+        View3D = False
+        TabOrder = 0
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        ExplicitHeight = 603
+        DefaultCanvas = 'TGDIPlusCanvas'
+        ColorPaletteIndex = 13
+        object Series2: TGanttSeries
+          PercentFormat = 'h:mm'
+          ValueFormat = 'h:mm'
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          XValues.Name = 'Start'
+          XValues.Order = loAscending
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          Callout.Style = psRightTriangle
+          Callout.Arrow.Visible = False
+          StartValues.Name = 'Start'
+          StartValues.Order = loAscending
+          EndValues.Name = 'End'
+          EndValues.Order = loNone
+          NextTask.Name = 'NextTask'
+          NextTask.Order = loNone
+          Data = {0000000000}
+        end
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'TabSheet3'
+      ImageIndex = 2
+      DesignSize = (
+        759
+        596)
+      object Chart3: TChart
+        Left = 3
+        Top = 0
+        Width = 756
+        Height = 600
+        Legend.Visible = False
+        Title.Text.Strings = (
+          'TChart')
+        View3D = False
+        TabOrder = 0
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        ExplicitHeight = 605
+        DefaultCanvas = 'TGDIPlusCanvas'
+        ColorPaletteIndex = 13
+        object Series3: TGanttSeries
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          XValues.Name = 'Start'
+          XValues.Order = loAscending
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          Callout.Style = psRightTriangle
+          Callout.Arrow.Visible = False
+          StartValues.Name = 'Start'
+          StartValues.Order = loAscending
+          EndValues.Name = 'End'
+          EndValues.Order = loNone
+          NextTask.Name = 'NextTask'
+          NextTask.Order = loNone
+        end
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'TabSheet4'
+      ImageIndex = 3
+      DesignSize = (
+        759
+        596)
+      object Label1: TLabel
+        Left = 84
+        Top = 549
+        Width = 68
+        Height = 13
+        Anchors = [akLeft, akBottom]
+        Caption = 'Name member'
+        ExplicitTop = 405
+      end
+      object Label2: TLabel
+        Left = 211
+        Top = 549
+        Width = 90
+        Height = 13
+        Anchors = [akLeft, akBottom]
+        Caption = 'Start date member'
+        ExplicitTop = 405
+      end
+      object Label5: TLabel
+        Left = 338
+        Top = 549
+        Width = 84
+        Height = 13
+        Anchors = [akLeft, akBottom]
+        Caption = 'End date member'
+        ExplicitTop = 405
+      end
+      object Label6: TLabel
+        Left = 465
+        Top = 549
+        Width = 86
+        Height = 13
+        Anchors = [akLeft, akBottom]
+        Caption = 'Resource member'
+        ExplicitTop = 405
+      end
+      object Button1: TButton
+        Left = 3
+        Top = 568
+        Width = 75
+        Height = 25
+        Anchors = [akLeft, akBottom]
+        Caption = 'Load Data'
+        TabOrder = 0
+        OnClick = Button1Click
+        ExplicitTop = 573
+      end
+      object Edit1: TEdit
+        Left = 84
+        Top = 568
+        Width = 121
+        Height = 21
+        Anchors = [akLeft, akBottom]
+        TabOrder = 1
+        ExplicitTop = 573
+      end
+      object Edit4: TEdit
+        Left = 465
+        Top = 568
+        Width = 121
+        Height = 21
+        Anchors = [akLeft, akBottom]
+        TabOrder = 2
+        ExplicitTop = 573
+      end
+      object Chart4: TChart
+        Left = 3
+        Top = 0
+        Width = 756
+        Height = 543
+        Legend.Visible = False
+        Title.Text.Strings = (
+          'TChart')
+        View3D = False
+        TabOrder = 3
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        ExplicitHeight = 548
+        DefaultCanvas = 'TGDIPlusCanvas'
+        ColorPaletteIndex = 13
+        object Series4: TGanttSeries
+          ClickableLine = False
+          Pointer.InflateMargins = True
+          Pointer.Style = psRectangle
+          XValues.Name = 'Start'
+          XValues.Order = loAscending
+          YValues.Name = 'Y'
+          YValues.Order = loNone
+          Callout.Style = psRightTriangle
+          Callout.Arrow.Visible = False
+          StartValues.Name = 'Start'
+          StartValues.Order = loAscending
+          EndValues.Name = 'End'
+          EndValues.Order = loNone
+          NextTask.Name = 'NextTask'
+          NextTask.Order = loNone
+        end
+      end
+      object Edit3: TEdit
+        Left = 338
+        Top = 568
+        Width = 121
+        Height = 21
+        Anchors = [akLeft, akBottom]
+        TabOrder = 4
+        ExplicitTop = 573
+      end
+      object Edit2: TEdit
+        Left = 211
+        Top = 568
+        Width = 121
+        Height = 21
+        Anchors = [akLeft, akBottom]
+        TabOrder = 5
+        ExplicitTop = 573
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 710
+    Top = 576
+  end
+end

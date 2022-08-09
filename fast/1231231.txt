@@ -1,0 +1,29 @@
+StartDate=   15.03.2021 12:00:00
+EndDate=     15.03.2021 15:00:00
+Text=        Cook meat
+Line number: 0
+
+StartDate=   15.03.2021 15:00:00
+EndDate=     15.03.2021 16:00:00
+Text=        Cook salads
+Line number: 1
+
+StartDate=   15.03.2021 16:00:00
+EndDate=     15.03.2021 18:30:00
+Text=        Cook main dish
+Line number: 2
+
+StartDate=   15.03.2021 18:30:00
+EndDate=     15.03.2021 19:30:00
+Text=        Cook snack
+Line number: 3
+
+StartDate=   15.03.2021 19:30:00
+EndDate=     15.03.2021 22:30:00
+Text=        Get a sleep
+Line number: 4
+
+StartDate=   15.03.2021 22:30:00
+EndDate=     15.03.2021 23:30:00
+Text=        Set the table
+Line number: 5
